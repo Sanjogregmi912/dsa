@@ -61,12 +61,13 @@ public class week8 {
 
     public static void main(String[] args) {
         String str = "Mg (OH)2";
+        System.out.println(countOfAtoms(str));
         int n=str.length();
         
         char indexnum = str.charAt(n-1);
         char indexh = str.charAt(n-3);
         char indexo = str.charAt(n-4);
-        System.out.println(countOfAtoms(str));
+        
         
         System.out.println("the index of "+indexh + "*" + indexnum);
         System.out.println("the index of "+indexo + "*" + indexnum);

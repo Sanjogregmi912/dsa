@@ -1,3 +1,11 @@
+/*
+Week2
+You are provided with kth number of linked list, merge all linked list to a single linked list
+in such a way that at any certain point sum of all values to that point must be positive.
+Input: list1= {5,7,8,9} list2= {1,2,3,6} list3= {-5, -10,10,11}
+Output: {1,2,3,5,6,8,9,10,11, -5, -10}
+ * 
+ */
 package questions;
 
 class LinkedList

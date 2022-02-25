@@ -28,7 +28,7 @@ public class week7 {
         int L = CaptureFire(root.left);
         int R = CaptureFire(root.right);
 
-        if (L == 0 && R == 1)
+        if (L == 1 && R == 1)
             return 2;
 
         else if (L == 2 || R == 2) {

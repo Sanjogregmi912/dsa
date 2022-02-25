@@ -1,3 +1,13 @@
+/*Week 1
+You are provided an array of number and the target value k. explore all possible ways to
+form an expression by inserting operator such as +, - , * in a such a way that expression
+evaluates to the number k.
+Return all expression in the form of string leading to the value k.
+Input: array= {3,4,3}, k=15
+Output: 3*4+3 and 3+4*3
+Explanation: 3*4+3=15 or 3+4*3=15
+ * 
+ */
 package questions;
 
 

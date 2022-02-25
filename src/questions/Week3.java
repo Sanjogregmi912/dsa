@@ -1,3 +1,12 @@
+/*
+ * Week3
+Given a string of number, return missing smallest positive integer. the time complexity for
+given algorithm must be 0(n)
+Input: str num=1689
+Output:2
+input: str num=689345
+Output: 1
+ */
 package questions;
 
 public class Week3 {
